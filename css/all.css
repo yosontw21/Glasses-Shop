@@ -58,6 +58,7 @@ a {
 	text-decoration: none;
 }
 /* CSS Reset end */
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -107,25 +108,25 @@ body {
 
 /* 767px-RWD navbar */
 @media (max-width: 767px) {
-    .navbar {
+  .navbar {
      display: block;
      text-align: center;
      padding: 0;
-    }
-    .navbar li {
+  }
+  .navbar li {
       width: 50%;
       text-align: center;
       padding: 8px 0;
       border: 1px solid #fff;
-    }
-    .navbar ul {
+  }
+  .navbar ul {
       display: flex;
       flex-wrap: wrap;
       width: 100%;
-    }
-    .logo {
+  }
+  .logo {
       padding: 10px 0;
-    }
+  }
 }
 /* 767px-RWD navbar end */
 
@@ -1654,6 +1655,7 @@ body {
   .post-review {
     position: static;
     width: 100%;
+  }
 }
 /* 767px-RWD post end */
 
@@ -1709,10 +1711,9 @@ body {
     font-size: 28px;
     line-height: 42px;
   }
-  .products-banner-inner1  {
+  .products-banner-inner1 {
     margin-right: 0;
-   } 
-
+  } 
   .products-category-items a:hover {
     border-bottom: 8px solid #AA0601;
   }
@@ -1799,7 +1800,7 @@ body {
 }
 /*----- products-list end -----*/
 
-/* 992px-RWD productsp-list */
+/* 992px-RWD products-list */
 @media (max-width: 992px) {
   .products-title {
     margin-bottom: 32px;
@@ -1830,9 +1831,9 @@ body {
     margin-bottom: 104px;
   }
 }
-/* 992px-RWD productsp-list end */
+/* 992px-RWD products-list end */
 
-/* 767px-RWD productsp-list */
+/* 767px-RWD products-list */
 @media (max-width: 767px) {
   .products-title {
     margin-bottom: 20px;
@@ -1860,7 +1861,7 @@ body {
     margin-bottom: 56px;
   }
 }
-/* 767px-RWD productsp-list end */
+/* 767px-RWD products-list end */
 
 /*----- products-sun -----*/
 .products-sun-banner ul {
