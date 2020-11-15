@@ -1041,12 +1041,12 @@ body {
 }
 
 .store-list-cart-map {
-  width: 40%;
+  width: 50%;
   margin-right: 30px;
 }
 
 .store-map {
-  width: 40%;
+  width: 50%;
 }
 
 .store-contact-map {
@@ -1068,6 +1068,38 @@ body {
   margin-right: 8px;
 }
 /*----- store-info-map end -----*/
+
+/* 767-RWD store-info */
+
+@media (max-width: 767px) {
+  .store-info-map {
+    display: block;
+    margin-bottom: 56px;
+    padding: 0 15px;
+  }
+  
+  .store-list-cart-map {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+  
+  .store-map {
+    width: 100%;
+    height: 500px;
+  }
+  
+  .store-contact-map li {
+    line-height: 21px;
+    font-size: 14px;
+  }
+  
+  .store-contact-map img {
+    padding-bottom: 0px;
+    margin-right: 8px;
+  }
+}
+/* 767-RWD store-info end */
 
 /*----- qa -----*/
 .glasses-qa {
