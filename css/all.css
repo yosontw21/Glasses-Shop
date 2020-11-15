@@ -58,18 +58,15 @@ a {
 	text-decoration: none;
 }
 /* CSS Reset end */
-
 body {
   font-family: "Roboto", sans-serif;
 }
-
 .container {
   max-width: 1110px;
   margin: 0 auto;
 }
 
 /*----- navbar -----*/
-
 .navbar {
   background: #AA0601;
   display: flex;
@@ -98,11 +95,9 @@ body {
   color: #000;
   transition: all 0.5s;
 }
-
 /*----- navbar end -----*/
 
 /* 992px-RWD navbar */
-
 @media (max-width: 992px) {
   .navbar {
     padding: 0 39px;
@@ -111,7 +106,6 @@ body {
 /* 992px-RWD navbar end */
 
 /* 767px-RWD navbar */
-
 @media (max-width: 767px) {
     .navbar {
      display: block;
@@ -136,7 +130,6 @@ body {
 /* 767px-RWD navbar end */
 
 /*----- banner -----*/
-
 .banner {
   background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/banner.png) center center no-repeat;
   display: block;
@@ -166,11 +159,9 @@ body {
   font-size: 64px;
   line-height: 96px;
 }
-
 /*----- banner end -----*/
 
 /* 992px-RWD banner */
-
 @media (max-width: 992px) {
   .banner {
     background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/banner-sm.png") center center no-repeat;
@@ -186,17 +177,14 @@ body {
     font-size: 20px;
     line-height: 30px;
   }
-  
   .banner-title-items-text {
     font-size: 48px;
     line-height: 72px;
   }
 }
-
 /* 992px-RWD banner end */
 
 /* 767px-RWD banner*/
-
 @media (max-width: 767px) {
   .banner {
     padding: 0 15px;
@@ -211,11 +199,9 @@ body {
     line-height: 72px;
   }
 }
-
 /* 767px-RWD banner end*/
 
 /*----- service-psr -----*/
-
 .service-psr {
   text-align: center;
   background: #AA06010D;
@@ -260,18 +246,16 @@ body {
   line-height: 24px;
   text-align: left;
 }
-
 /*----- service-psr end -----*/
 
 /* 992px-RWD service */
-
 @media (max-width: 992px) {
   .service-psr {
     margin-bottom: 40px;
   }
   .service-psr li {
     width: 40%;
-   }
+  }
   .service-psr ul {
     flex-wrap: wrap;
   }
@@ -290,11 +274,9 @@ body {
     margin-bottom: 40px;
   }
 }
-
 /* 992px-RWD service end */
 
 /* 767px-RWD service */
-
 @media (max-width: 767px) {
   .service-psr {
     margin-bottom: 32px;
@@ -311,11 +293,9 @@ body {
     padding-top: 32px;
   }
 }
-
 /* 767px-RWD service end*/
 
 /*----- product -----*/
-
 .product {
   font-weight: bolder;
   text-align: center;
@@ -365,11 +345,9 @@ body {
 .product-items-sun-img {
   max-width: none;
 }
-
 /*----- product end -----*/
 
 /* 992px-RWD product */
-
 @media (max-width: 992px) {
   .product {
     padding: 0 40px;
@@ -392,13 +370,10 @@ body {
     font-size: 32px;
     line-height: 48px;
   }
-  
 }
-
 /* 992px-RWD product end*/
 
 /* 767px-RWD product */
-
 @media (max-width: 767px) {
   .product h2 {
     font-size: 20px;
@@ -407,10 +382,13 @@ body {
   .product-img {
     width: 100%;
   }
+  .product {
+   width: 98%;
+  }
 }
+/* 767px-RWD product end*/
 
 /*----- design -----*/
-
 .design {
   background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/bg.png") center center no-repeat;
   background-size: cover;
@@ -459,11 +437,9 @@ body {
   background-size: cover;
   width: 100%;
 }
-
 /*----- design end -----*/
 
 /* 992px-RWD design */
-
 @media (max-width: 992px) {
   .design {
     padding: 0 40px;
@@ -491,7 +467,6 @@ body {
 /* 992px design end */
 
 /* 767px design */
-
 @media (max-width: 767px) {
   .design h3 {
     font-size: 20px;
@@ -515,9 +490,9 @@ body {
     width: 100%;
   }
 }
+/* 767px design end*/
 
 /*----- customer -----*/
-
 .customer ul {
   display: flex;
   justify-content: space-around;
@@ -562,11 +537,9 @@ body {
   padding: 10px;
   margin-bottom: 64px;
 }
-
 /*----- customer end -----*/
 
 /* 992px-RWD customer */
-
 @media (max-width: 992px) {
   .customer {
     padding: 0 30px;
@@ -593,11 +566,9 @@ body {
     margin-bottom: 40px;
   }
 }
-
 /* 992px-RWD customer end*/
 
 /* 767px-RWD customer */
-
 @media (max-width: 767px) {
   .customer {
     padding: 0 15px;
@@ -613,11 +584,9 @@ body {
     margin-bottom: 20px;
   }
 }
-
 /* 767px-RWD customer end */
 
 /*----- contact -----*/
-
 .contact {
   background: #AA06010D;
   font-weight: bold;
@@ -690,12 +659,9 @@ body {
 .privacy {
   line-height: 24px;
 }
-
 /*----- contact end -----*/
 
-
 /* 992px-RWD contact*/
-
 @media (max-width: 992px) {
   .contact-us {
     margin: 0 auto;
@@ -724,7 +690,6 @@ body {
 /* 992px-RWD contact end*/
 
 /* 767px-RWD contact */
-
 @media (max-width: 767px) {
   .contact-us {
     margin: 0 auto;
@@ -748,11 +713,9 @@ body {
     margin-bottom: 40px;
   }
 }
-
 /* 767px-RWD contact end*/
 
 /*----- footer -----*/
-
 .footer {
   background: #AA0601;
   color: #ffffff;
@@ -774,6 +737,10 @@ body {
   display: flex;
 }
 
+.footer-icon li {
+  padding: 0 16px;
+}
+
 .footer-menu a {
   color: #ffffff;
   line-height: 24px;
@@ -785,33 +752,28 @@ body {
   transition: all 0.5s;
 }
 
-.footer-contact a:hover {
-  color: #000;
-  transition: all 0.5s;
-}
-
-.footer-icon li:nth-child(2) {
-  padding: 0 16px;
-}
-
-.footer-contact a {
+.phone-icon, .mail-icon {
   color: #ffffff;
-}
-
-.footer-contact ul {
-  border-bottom: 1px solid #FFFFFF;
-  padding-bottom: 22px;
-}
-
-.footer-contact li {
+  display: flex;
   margin-bottom: 17px;
-}
-
-.footer-contact li span {
   line-height: 50px;
   font-size: 36px;
   font-weight: normal;
   margin-left: 10px;
+}
+
+.phone-icon:hover {
+  color: #000;
+  transition: all 0.5s;
+}
+
+.mail-icon:hover {
+  color: #000;
+  transition: all 0.5s;
+}
+
+.mail-icon-img, .phone-icon-img {
+  margin-right: 10px;
   display: inline-block;
   overflow: hidden;
 }
@@ -819,8 +781,9 @@ body {
 .copyright {
   display: flex;
   justify-content: space-between;
-  margin-top: 24px;
   padding-bottom: 40px;
+  padding-top: 24px;
+  border-top: 1px solid #FFFFFF;
 }
 
 .copyright-list, .copyright-terms {
@@ -844,11 +807,9 @@ body {
 .copyright-terms li:nth-child(1) {
   margin-right: 62px;
 }
-
 /*----- footer end -----*/
 
 /* 992px-RWD footer */
-
 @media (max-width: 992px) {
   .footer {
     padding: 0 40px;
@@ -859,7 +820,7 @@ body {
   .footer-navbar {
     margin-bottom: 24px;
   }
-  .footer-contact li span {
+  .phone-icon, .mail-icon {
     line-height: 30px;
     font-size: 24px;
   }
@@ -867,11 +828,9 @@ body {
     display: none;
   }
 }
-
 /* 992px-RWD footer end */
 
 /* 767px-RWD footer */
-
 @media (max-width: 767px) {
   .footer-menu {
     display: none;
@@ -881,9 +840,28 @@ body {
     flex-direction: row-reverse;
     padding-top: 24px;
   }
+  .phone-icon, .mail-icon {
+    line-height: 30px;
+    font-size: 16px;
+  }
+  .copyright {
+    display: block;
+  }
+  .copyright-list,.copyright-terms {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .copyright-terms li {
+    margin-bottom: 8px;
+    position: relative;
+  }
+  .copyright-list li img {
+    display: inline-block;
+  }
 }
-/*----- store -----*/
+/* 767px-RWD footer end*/
 
+/*----- store -----*/
 .store-banner {
   background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/qa.png) center center
   no-repeat;
@@ -903,9 +881,9 @@ body {
 }
 
 .store-shop label {
-   font-size: 24px;
-   line-height: 30px;
-   font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
 }
 
 .store-info {
@@ -983,19 +961,16 @@ body {
 }
 
 .contact-info a:hover {
-  font-size: 30px;
-  font-weight: bolder;
+  opacity: 0.8;
   transition: all 0.5s;
 }
 
 .store-contact-addres img {
  padding-bottom: 30px;
 }
-
 /*----- store end -----*/
 
 /* 992px-RWD store */
-
 @media (max-width: 992px) {
   .store-list-cart {
     width: 46%;
@@ -1006,12 +981,58 @@ body {
   .store-info, .store-shop, .store-banner h1 {
     padding: 0 40px;
   }
+  .store-contact-addres img {
+    padding-bottom: 16px;
+   }
 }
-
 /* 992px-RWD store end */
 
-/*----- store-info-map -----*/
+/* 847px-RWD store */
+@media (max-width: 847px) {
+  .store-list-cart {
+    width: 98%;
+    margin: 0;
+  }
+  .store-list {
+    margin-bottom: 56px;
+  }
+  .store-info, .store-shop{
+    padding: 0 15px;
+  }
+  .store-banner h1 {
+    font-size: 28px;
+    padding: 0 15px;
+  }
+  .select-area {
+    margin-left: 12px;
+    font-size: 14px;
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  .store-shop label {
+    font-size: 14px;
+  }
+  .contact-info a {
+    font-size: 14px;
+  }
+  .store-contact li {
+    line-height: 21px;
+    font-size: 14px;
+  }
+  .contact-info {
+    margin-bottom: 16px;
+  }
+  .store-contact-addres img {
+    padding-bottom: 0;
+  }
+  .store-name h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+/* 847px-RWD store end */
 
+/*----- store-info-map -----*/
 .store-info-map {
   display: flex;
   margin-bottom: 304px;
@@ -1045,11 +1066,9 @@ body {
   padding-bottom: 0px;
   margin-right: 8px;
 }
-
 /*----- store-info-map end -----*/
 
 /*----- qa -----*/
-
 .glasses-qa {
   font-weight: bold;
 }
@@ -1076,11 +1095,9 @@ body {
   padding-left: 100px;
   line-height: 24px;
 }
-
 /*----- qa end -----*/
 
 /* 992px-RWD qa */
-
 @media (max-width: 992px) {
   .glasses-qa ul {
     margin-bottom: 104px;
@@ -1089,11 +1106,39 @@ body {
     padding: 0 40px;
   }
 }
-
 /* 992px-RWD qa end*/
 
-/*----- blog -----*/
+/* 767px-RWD qa */
+@media (max-width: 767px) {
+  .glasses-qa {
+    padding: 0 15px;
+  }
+  .glasses-qa ul {
+    margin-bottom: 56px;
+  }
+  
+  .glasses-qa h2 {
+    margin-top: 24px;
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  
+  .glasses-qa h3 {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+  }
+  
+  .glasses-qa p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 21px;
+    padding-left: 0;
+  }
+}
+/* 767px-RWD qa end */
 
+/*----- blog -----*/
 .blog-navbar {
   background: #650300;
 }
@@ -1227,13 +1272,10 @@ body {
   background: #F2F2F2;
   transition: all 0.5s;
 }
-
 /*----- blog end -----*/
 
 /* 992px-RWD blog */
-
 @media (max-width: 992px) {
-
   .blog-article-img {
     width: 40%;
   }
@@ -1275,11 +1317,46 @@ body {
     width: 50%;
   }
 }
-
 /* 992px-RWD blog end */
 
-/*----- posts -----*/
+/* 767px-RWD blog start */
+@media (max-width: 767px) {
+  .blog-article {
+    padding: 0 15px;
+  }
+  .blog-article-img {
+    display: inline-block;
+    width: 100%;
+  }
+  .blog-navbar-menu,.blog-post-description {
+    display: none;
+  }
+  .blog-article li {
+    display: inline;
+  }
+  .blog-post {
+    width: 98%;
+    margin-bottom: 26px;
+  }
+  .blog-article ul {
+    margin-bottom: 13px;
+  }
+  .blog-article {
+    margin-top: 24px;
+  }
+  .blog-article img {
+    margin-right: 0;
+  }
+  .blog-post-item-eng {
+    font-size: 14px;
+  }
+  .blog-post-content h2 {
+    font-size: 16px;
+  }
+}
+/* 767px-RWD blog start end */
 
+/*----- posts -----*/
 .blog-router {
   display: flex;
   margin-top: 8px;
@@ -1444,11 +1521,9 @@ body {
   transition: all 0.5s;
   opacity: 0.6;
 }
-
 /*----- posts end -----*/
 
 /* 992px-RWD post */
-
 @media (max-width: 992px) {
   .blog-router {
     padding: 0 40px;
@@ -1497,11 +1572,92 @@ body {
     margin-bottom: 6px;
   }
 }
-
 /* 992px-RWD post end*/
 
-/*----- products cate&ban -----*/
+/* 767px-RWD post */
+@media (max-width: 767px) {
+  .blog-router {
+    margin-bottom: 6px;
+    padding: 0 15px;
+  }
+  .post-content {
+    width: 100%;
+  }
+  .tags-now span {
+    font-size: 14px;
+    margin-right: 4px;
+  }
+  .post-item {
+    margin-bottom: 19px;
+  }
+  .post-main {
+    display: block;
+    margin-bottom: 56px;
+    padding: 0 15px;
+  }
+  .post-main h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .post-title-eng {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .post-text {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    margin-top: 16px;
+  }
+  .post-share {
+    padding-bottom: 16px;
+  }
+  .post-share p {
+    font-size: 16px;
+    margin-right: 18px;
+  }
+  .post-share li {
+    margin-right: 16px;
+  }
+  .post-review {
+    border-top: 1px solid #707070;
+    padding-top: 8px;
+    display: block;
+  }
+  .post-review a {
+    font-size: 14px;
+    display: block;
+  }
+  .post-review img {
+    margin-right: 16px;
+  }
+  .post-sidetags {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .post-sidetags p {
+    font-size: 20px;
+    line-height: 42px;
+    margin-bottom: 10px;
+  }
+  .post-sidetags img {
+    margin-right: 8px;
+  }
+  .post-sidetags-name {
+    font-size: 16px;
+  }
+  .post-sidetags-name li {
+    margin-right: 8px;
+    margin-bottom: 0;
+  }
+  .post-review {
+    position: static;
+    width: 100%;
+}
+/* 767px-RWD post end */
 
+/*----- products cate&ban -----*/
 .products-category ul {
   display: flex;
 }
@@ -1524,7 +1680,7 @@ body {
   color: #000;
   display: block;
   line-height: 63px;
-  padding: 16px 0;
+  padding: 16px 15px;
 }
 
 .products-category-items a:hover {
@@ -1545,11 +1701,9 @@ body {
   display: block;
   height: 309px;
 }
-
 /*----- products cate&ban end -----*/
 
 /* 992px-RWD products-category */
-
 @media (max-width: 992px) {
   .products-category-items a {
     font-size: 28px;
@@ -1557,17 +1711,31 @@ body {
   }
   .products-banner-inner1  {
     margin-right: 0;
-   }
-   .products-icon-items {
-    position: relative;
-    top: 0;
+   } 
+
+  .products-category-items a:hover {
+    border-bottom: 8px solid #AA0601;
+  }
+  .products-banner ul {
+    margin-bottom: 40px;
   }
 }
-
 /* 992px-RWD products-category end */
 
-/*----- products-list -----*/
+/* 767px-RWD products-category */
+@media (max-width: 767px) {
+  .products-category-items a {
+    font-size: 16px;
+    line-height: 19px;
+    padding: 8px 7px;
+  }
+  .products-banner ul {
+    margin-bottom: 30px;
+  }
+}
+/* 767px-RWD products-category end */
 
+/*----- products-list -----*/
 .products-title {
   text-align: center;
   margin-bottom: 40px;
@@ -1615,7 +1783,6 @@ body {
 .products-color {
   display: flex;
 }
-
 .products-model-color-dark-brown {
   width: 24px;
   height: 24px;
@@ -1630,11 +1797,9 @@ body {
   height: 24px;
   background: #B75929;
 }
-
 /*----- products-list end -----*/
 
 /* 992px-RWD productsp-list */
-
 @media (max-width: 992px) {
   .products-title {
     margin-bottom: 32px;
@@ -1649,12 +1814,10 @@ body {
   }
   .products-items {
     width: 48%;
+    margin-bottom: 72px;
   }
   .products-list-img {
     width: 100%;
-  }
-  .products-items {
-    margin-bottom: 72px;
   }
   .products-value {
     font-size: 24px;
@@ -1663,12 +1826,43 @@ body {
   .products-list {
     padding: 0 40px;
   }
+  .blog-pages {
+    margin-bottom: 104px;
+  }
 }
-
 /* 992px-RWD productsp-list end */
 
-/*----- products-sun -----*/
+/* 767px-RWD productsp-list */
+@media (max-width: 767px) {
+  .products-title {
+    margin-bottom: 20px;
+  }
+  .products-title-eng {
+    font-size: 20px;
+  }
+  .products-title-chi {
+    font-size: 16px;
+  }
+  .products-items {
+    width: 98%;
+  }
+  .products-list-img {
+    width: 100%;
+  }
+  .products-value {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .products-list {
+    padding: 0 15px;
+  }
+  .blog-pages {
+    margin-bottom: 56px;
+  }
+}
+/* 767px-RWD productsp-list end */
 
+/*----- products-sun -----*/
 .products-sun-banner ul {
   display: flex;
   margin-bottom: 88px;
@@ -1685,10 +1879,14 @@ body {
 
 .products-sun-items {
   width: 33.33333%;
-  margin-bottom: 104px;
+  margin-bottom: 32px;
 }
 
-.products-sun-items img {
+.products-list-sun ul {
+  margin-bottom: 72px;
+}
+
+.products-sunimg {
   display: inline-block;
   background-size: cover;
 }
@@ -1716,14 +1914,16 @@ body {
   background: cover;
   display: inline-block;
 }
-
 /*----- products-sun end -----*/
 
 /* 992px-RWD products-sun */
-
 @media (max-width: 992px) {
   .products-sun-items {
     width: 48%;
+    margin-bottom: 72px;
+  }
+  .products-list-sun ul {
+    margin-bottom: 33px;
   }
   .products-sun-banner li:nth-child(1) {
     margin-right: 0px;
@@ -1731,7 +1931,7 @@ body {
   .products-sun-value {
     display: flex;
     justify-content: space-between;
-    font-size: 24   px;
+    font-size: 24px;
     line-height: 30px;
   }
   .products-list-sun li img {
@@ -1743,6 +1943,31 @@ body {
   .products-list-sun {
     padding: 0 40px;
   }
+  .products-sun-banner ul {
+    display: flex;
+    margin-bottom: 40px;
+  }
 }
-
 /* 992px-RWD products-sun end*/
+
+/* 767px-RWD products-sun */
+@media (max-width: 767px) {
+  .products-sun-banner ul {
+    margin-bottom: 30px;
+  }
+  .products-list-sun {
+    padding: 0 15px;
+  }
+  .products-sun-value {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .products-sun-items {
+    width: 98%;
+    margin-bottom: 32px;
+  }
+  .products-list-sun ul {
+    margin-bottom: 8px;
+  }
+}
+/* 767px-RWD products-sun end */
