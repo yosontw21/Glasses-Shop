@@ -25,6 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 html {
  box-sizing: border-box;
+ overflow-y: scroll;
 }
 *, *:before, *:after {
  box-sizing: inherit;
@@ -59,9 +60,19 @@ a {
 }
 /* CSS Reset end */
 
+:root {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+:root body {
+  position: absolute;
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  overflow-x: hidden;
+  width: 100vw;
+  overflow: hidden;
 }
 
 .container {
