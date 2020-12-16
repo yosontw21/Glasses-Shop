@@ -61,7 +61,9 @@ a {
 
 body {
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
+
 .container {
   max-width: 1110px;
   margin: 0 auto;
@@ -363,6 +365,10 @@ body {
 .product-items-sun-img {
   max-width: none;
 }
+
+.product-img {
+  width: 60%;
+}
 /*----- product end -----*/
 
 /* 992px-RWD product */
@@ -479,6 +485,7 @@ body {
   background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/product-8.png") center center
   no-repeat;
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: center;
   height: 472px;
@@ -490,11 +497,38 @@ body {
 .design-pic2 {
   background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/product-9.png") center center no-repeat;
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: center;
   height: 472px;
   background-size: cover;
   width: 100%;
+}
+
+.design-pic1::before {
+  position: absolute;
+  content: "Double A+";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.design-pic2::before {
+  position: absolute;
+  content: "YOUTH";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /*----- design end -----*/
 
@@ -972,6 +1006,8 @@ body {
   left: 0.1;
   font-size: 64px;
   line-height: 80px;
+  display: flex;
+  align-items: center;
 }
 
 .store-shop label {
